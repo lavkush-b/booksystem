@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-agjs+&25q$5a7fek)mf!y2ss=+ni!f!*hmx9)1r@+!49u%r(2#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1','booksystem.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 SECRET_KEY = os.environ.get('SECRET_KEY')
 EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
