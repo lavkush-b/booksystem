@@ -15,13 +15,13 @@ end points below.
 
 ### Setup for running on local machine
  0. Install postgres in your local and create a database. Once database is created set environment variables mentioned below.
-        ```textmate
-        export PG_DB_USER=<db user|Example = 'postgres'>
-        export PG_DB_NAME=<db name|Example = 'kush'>
-        export PG_DB_PASS=<db password|Example = 'kush'>
-        export PG_DB_HOST=<db host|Example = 'localhost'>
-        export PG_DB_PORT=<db port|Example = '5432'>
-        ```
+```textmate
+    export PG_DB_USER=<db user|Example = 'postgres'>
+    export PG_DB_NAME=<db name|Example = 'kush'>
+    export PG_DB_PASS=<db password|Example = 'kush'>
+    export PG_DB_HOST=<db host|Example = 'localhost'>
+    export PG_DB_PORT=<db port|Example = '5432'>
+```
  1. Create a virtual environment and activate environment. (for help you can check this link: https://linuxize.com/post/how-to-create-python-virtual-environments-on-ubuntu-18-04/)
  2. Clone repository in local machine from given url https://github.com/lavkush-b/booksystem/tree/master
  3. Navigate to `booksystem` folder using `cd` command.
